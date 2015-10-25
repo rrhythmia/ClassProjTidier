@@ -1,0 +1,101 @@
+**************************************************
+Codebook for Activity tracker dataset 'tidyDS.txt'
+**************************************************
+Describing the variables, the data, and any transformations or 
+work performed to clean up the tidied data set
+(Also see README.md)
+(And see orig. dataset's 'readme.txt' for Units and other information)
+
+*** end of information on using Codebook  ***
+**************************************************
+
+ 81  Columns of data:
+
+1. subject:	Person wearing tracker
+2. activity:	Activity
+	WALKING
+	WALKING_UPSTAIRS
+	WALKING_DOWNSTAIRS
+	SITTING
+	STANDING
+	LAYING
+	(Note: for privacy, measurements from reclining subjects (activity='LAYING') were removed.)
+3. MEAN-tBodyAcc-mean()-X:	Mean of the tBodyAcc-mean()-X measures for this subject and activity
+4. MEAN-tBodyAcc-mean()-Y:	Mean of the tBodyAcc-mean()-Y measures for this subject and activity
+5. MEAN-tBodyAcc-mean()-Z:	Mean of the tBodyAcc-mean()-Z measures for this subject and activity
+6. MEAN-tBodyAcc-std()-X:	Mean of the tBodyAcc-std()-X measures for this subject and activity
+7. MEAN-tBodyAcc-std()-Y:	Mean of the tBodyAcc-std()-Y measures for this subject and activity
+8. MEAN-tBodyAcc-std()-Z:	Mean of the tBodyAcc-std()-Z measures for this subject and activity
+9. MEAN-tGravityAcc-mean()-X:	Mean of the tGravityAcc-mean()-X measures for this subject and activity
+10. MEAN-tGravityAcc-mean()-Y:	Mean of the tGravityAcc-mean()-Y measures for this subject and activity
+11. MEAN-tGravityAcc-mean()-Z:	Mean of the tGravityAcc-mean()-Z measures for this subject and activity
+12. MEAN-tGravityAcc-std()-X:	Mean of the tGravityAcc-std()-X measures for this subject and activity
+13. MEAN-tGravityAcc-std()-Y:	Mean of the tGravityAcc-std()-Y measures for this subject and activity
+14. MEAN-tGravityAcc-std()-Z:	Mean of the tGravityAcc-std()-Z measures for this subject and activity
+15. MEAN-tBodyAccJerk-mean()-X:	Mean of the tBodyAccJerk-mean()-X measures for this subject and activity
+16. MEAN-tBodyAccJerk-mean()-Y:	Mean of the tBodyAccJerk-mean()-Y measures for this subject and activity
+17. MEAN-tBodyAccJerk-mean()-Z:	Mean of the tBodyAccJerk-mean()-Z measures for this subject and activity
+18. MEAN-tBodyAccJerk-std()-X:	Mean of the tBodyAccJerk-std()-X measures for this subject and activity
+19. MEAN-tBodyAccJerk-std()-Y:	Mean of the tBodyAccJerk-std()-Y measures for this subject and activity
+20. MEAN-tBodyAccJerk-std()-Z:	Mean of the tBodyAccJerk-std()-Z measures for this subject and activity
+21. MEAN-tBodyGyro-mean()-X:	Mean of the tBodyGyro-mean()-X measures for this subject and activity
+22. MEAN-tBodyGyro-mean()-Y:	Mean of the tBodyGyro-mean()-Y measures for this subject and activity
+23. MEAN-tBodyGyro-mean()-Z:	Mean of the tBodyGyro-mean()-Z measures for this subject and activity
+24. MEAN-tBodyGyro-std()-X:	Mean of the tBodyGyro-std()-X measures for this subject and activity
+25. MEAN-tBodyGyro-std()-Y:	Mean of the tBodyGyro-std()-Y measures for this subject and activity
+26. MEAN-tBodyGyro-std()-Z:	Mean of the tBodyGyro-std()-Z measures for this subject and activity
+27. MEAN-tBodyGyroJerk-mean()-X:	Mean of the tBodyGyroJerk-mean()-X measures for this subject and activity
+28. MEAN-tBodyGyroJerk-mean()-Y:	Mean of the tBodyGyroJerk-mean()-Y measures for this subject and activity
+29. MEAN-tBodyGyroJerk-mean()-Z:	Mean of the tBodyGyroJerk-mean()-Z measures for this subject and activity
+30. MEAN-tBodyGyroJerk-std()-X:	Mean of the tBodyGyroJerk-std()-X measures for this subject and activity
+31. MEAN-tBodyGyroJerk-std()-Y:	Mean of the tBodyGyroJerk-std()-Y measures for this subject and activity
+32. MEAN-tBodyGyroJerk-std()-Z:	Mean of the tBodyGyroJerk-std()-Z measures for this subject and activity
+33. MEAN-tBodyAccMag-mean():	Mean of the tBodyAccMag-mean() measures for this subject and activity
+34. MEAN-tBodyAccMag-std():	Mean of the tBodyAccMag-std() measures for this subject and activity
+35. MEAN-tGravityAccMag-mean():	Mean of the tGravityAccMag-mean() measures for this subject and activity
+36. MEAN-tGravityAccMag-std():	Mean of the tGravityAccMag-std() measures for this subject and activity
+37. MEAN-tBodyAccJerkMag-mean():	Mean of the tBodyAccJerkMag-mean() measures for this subject and activity
+38. MEAN-tBodyAccJerkMag-std():	Mean of the tBodyAccJerkMag-std() measures for this subject and activity
+39. MEAN-tBodyGyroMag-mean():	Mean of the tBodyGyroMag-mean() measures for this subject and activity
+40. MEAN-tBodyGyroMag-std():	Mean of the tBodyGyroMag-std() measures for this subject and activity
+41. MEAN-tBodyGyroJerkMag-mean():	Mean of the tBodyGyroJerkMag-mean() measures for this subject and activity
+42. MEAN-tBodyGyroJerkMag-std():	Mean of the tBodyGyroJerkMag-std() measures for this subject and activity
+43. MEAN-fBodyAcc-mean()-X:	Mean of the fBodyAcc-mean()-X measures for this subject and activity
+44. MEAN-fBodyAcc-mean()-Y:	Mean of the fBodyAcc-mean()-Y measures for this subject and activity
+45. MEAN-fBodyAcc-mean()-Z:	Mean of the fBodyAcc-mean()-Z measures for this subject and activity
+46. MEAN-fBodyAcc-std()-X:	Mean of the fBodyAcc-std()-X measures for this subject and activity
+47. MEAN-fBodyAcc-std()-Y:	Mean of the fBodyAcc-std()-Y measures for this subject and activity
+48. MEAN-fBodyAcc-std()-Z:	Mean of the fBodyAcc-std()-Z measures for this subject and activity
+49. MEAN-fBodyAcc-meanFreq()-X:	Mean of the fBodyAcc-meanFreq()-X measures for this subject and activity
+50. MEAN-fBodyAcc-meanFreq()-Y:	Mean of the fBodyAcc-meanFreq()-Y measures for this subject and activity
+51. MEAN-fBodyAcc-meanFreq()-Z:	Mean of the fBodyAcc-meanFreq()-Z measures for this subject and activity
+52. MEAN-fBodyAccJerk-mean()-X:	Mean of the fBodyAccJerk-mean()-X measures for this subject and activity
+53. MEAN-fBodyAccJerk-mean()-Y:	Mean of the fBodyAccJerk-mean()-Y measures for this subject and activity
+54. MEAN-fBodyAccJerk-mean()-Z:	Mean of the fBodyAccJerk-mean()-Z measures for this subject and activity
+55. MEAN-fBodyAccJerk-std()-X:	Mean of the fBodyAccJerk-std()-X measures for this subject and activity
+56. MEAN-fBodyAccJerk-std()-Y:	Mean of the fBodyAccJerk-std()-Y measures for this subject and activity
+57. MEAN-fBodyAccJerk-std()-Z:	Mean of the fBodyAccJerk-std()-Z measures for this subject and activity
+58. MEAN-fBodyAccJerk-meanFreq()-X:	Mean of the fBodyAccJerk-meanFreq()-X measures for this subject and activity
+59. MEAN-fBodyAccJerk-meanFreq()-Y:	Mean of the fBodyAccJerk-meanFreq()-Y measures for this subject and activity
+60. MEAN-fBodyAccJerk-meanFreq()-Z:	Mean of the fBodyAccJerk-meanFreq()-Z measures for this subject and activity
+61. MEAN-fBodyGyro-mean()-X:	Mean of the fBodyGyro-mean()-X measures for this subject and activity
+62. MEAN-fBodyGyro-mean()-Y:	Mean of the fBodyGyro-mean()-Y measures for this subject and activity
+63. MEAN-fBodyGyro-mean()-Z:	Mean of the fBodyGyro-mean()-Z measures for this subject and activity
+64. MEAN-fBodyGyro-std()-X:	Mean of the fBodyGyro-std()-X measures for this subject and activity
+65. MEAN-fBodyGyro-std()-Y:	Mean of the fBodyGyro-std()-Y measures for this subject and activity
+66. MEAN-fBodyGyro-std()-Z:	Mean of the fBodyGyro-std()-Z measures for this subject and activity
+67. MEAN-fBodyGyro-meanFreq()-X:	Mean of the fBodyGyro-meanFreq()-X measures for this subject and activity
+68. MEAN-fBodyGyro-meanFreq()-Y:	Mean of the fBodyGyro-meanFreq()-Y measures for this subject and activity
+69. MEAN-fBodyGyro-meanFreq()-Z:	Mean of the fBodyGyro-meanFreq()-Z measures for this subject and activity
+70. MEAN-fBodyAccMag-mean():	Mean of the fBodyAccMag-mean() measures for this subject and activity
+71. MEAN-fBodyAccMag-std():	Mean of the fBodyAccMag-std() measures for this subject and activity
+72. MEAN-fBodyAccMag-meanFreq():	Mean of the fBodyAccMag-meanFreq() measures for this subject and activity
+73. MEAN-fBodyBodyAccJerkMag-mean():	Mean of the fBodyBodyAccJerkMag-mean() measures for this subject and activity
+74. MEAN-fBodyBodyAccJerkMag-std():	Mean of the fBodyBodyAccJerkMag-std() measures for this subject and activity
+75. MEAN-fBodyBodyAccJerkMag-meanFreq():	Mean of the fBodyBodyAccJerkMag-meanFreq() measures for this subject and activity
+76. MEAN-fBodyBodyGyroMag-mean():	Mean of the fBodyBodyGyroMag-mean() measures for this subject and activity
+77. MEAN-fBodyBodyGyroMag-std():	Mean of the fBodyBodyGyroMag-std() measures for this subject and activity
+78. MEAN-fBodyBodyGyroMag-meanFreq():	Mean of the fBodyBodyGyroMag-meanFreq() measures for this subject and activity
+79. MEAN-fBodyBodyGyroJerkMag-mean():	Mean of the fBodyBodyGyroJerkMag-mean() measures for this subject and activity
+80. MEAN-fBodyBodyGyroJerkMag-std():	Mean of the fBodyBodyGyroJerkMag-std() measures for this subject and activity
+81. MEAN-fBodyBodyGyroJerkMag-meanFreq():	Mean of the fBodyBodyGyroJerkMag-meanFreq() measures for this subject and activity
